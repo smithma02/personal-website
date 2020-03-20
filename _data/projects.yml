@@ -1,0 +1,23 @@
+# projects section data
+# If you don't have language feature(language.yml is empty), ignore "i18n" items
+# Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: Xcode Metrics Organizer
+  # gh_user: tzuehlke
+  # repo: DebugContainer
+  img: /static/assets/img/xmo-edited.png
+  desc: Major contributor to the UI/UX design of the Xcode Metrics Organizer that allows App Store developers to visualize end-user performance metrics.
+  link: https://developer.apple.com/documentation/xcode/improving_your_app_s_performance
+
+- name: Passbook (Wallet)
+  # gh_user: tzuehlke
+  # repo: jekyll-uno-timeline
+  img: /static/assets/img/passbook.png
+  desc: Helped with the bring-up of Passbook (now Wallet) on iOS. Wrote the first Passbook server that was distributed as sample code.
+  link: https://download.developer.apple.com/ios/passbook_support_materials/passbook_materials.dmg
+
+- name: Beverages Manager, San Francisco Pride
+  # gh_user: tzuehlke
+  # repo: scripts
+  img: /static/assets/img/pride.png
+  desc: Responsible for logistics and fulfillment for an event that generates $500,000 in revenue for the 2014 - 2017 productions. The program involves local non-profits and provides them a revenue earning opportunity.
+  link: http://www.sfpride.org

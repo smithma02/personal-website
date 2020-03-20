@@ -1,0 +1,43 @@
+# Site settings
+title: Matthew A Smith
+description: "Business Card Page"
+url: "http://www.matthewasmith.com"
+baseurl: ""
+profilepic: "/images/profile-mas.jpg"
+bkimage: "/images/2051.jpg"
+google_analytics: UA-XXXXXX-X
+font_awesome: "46f66a4ac1.js"
+
+author:
+  name: "Matthew A Smith"
+  email: info@matthewasmith.com
+  # twitter_username: smithma02
+  #  facebook_username: joshgerdes
+  github_username: smithma02
+  linkedin_username: matthewaasmith
+  # meetup_name: Azure-Meetup-Rostock-MV
+
+# Build settings
+destination: _site
+markdown: kramdown
+highlighter: rouge
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+#plugins: ['jekyll-paginate']
+exclude: ["README.md", "screenshot-overview.png"]
