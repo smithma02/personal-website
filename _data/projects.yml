@@ -1,6 +1,11 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
+- name: Clocked
+  img: /static/assets/img/clocked.png
+  desc: A React-Native iOS app, backed by Firebase, for keeping tabs on your favorite Drag Performers.
+  link: https://www.clocked.me
+
 - name: Xcode Metrics Organizer
   # gh_user: tzuehlke
   # repo: DebugContainer
