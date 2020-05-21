@@ -4,7 +4,7 @@
 - name: Clocked
   img: /static/assets/img/clocked.png
   desc: A React-Native iOS app, backed by Firebase, for keeping tabs on your favorite Drag Performers.
-  link: https://www.clocked.me
+  link: https://clocked.me
 
 - name: Xcode Metrics Organizer
   # gh_user: tzuehlke
